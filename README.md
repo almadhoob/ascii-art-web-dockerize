@@ -1,25 +1,25 @@
-# ascii-art-web-stylize
+# ascii-art-web-dockerize
 
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://gitea.com/almadhoob/ascii-art-web-stylize">
+  <a href="https://gitea.com/almadhoob/ascii-art-web-dockerize">
     <img src="static/logo.png" alt="Logo" width="128" height="128">
   </a>
 
-<h3 align="center">ASCII Art Web Stylized</h3>
+<h3 align="center">ASCII Art Web Dockerize</h3>
 
   <p align="center">
     A simple text manipulation web app.
     <br />
-    <a href="https://gitea.com/almadhoob/ascii-art-web-stylize"><strong>Go to the repo »</strong></a>
+    <a href="https://gitea.com/almadhoob/ascii-art-web-dockerize"><strong>Go to the repo »</strong></a>
     <br />
     <br />
-    <a href="https://gitea.com/almadhoob/ascii-art-web-stylize/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://gitea.com/almadhoob/ascii-art-web-dockerize/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://gitea.com/almadhoob/ascii-art-web-stylize/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://gitea.com/almadhoob/ascii-art-web-dockerize/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -59,9 +59,9 @@
 <!-- <div align="center"><img src="images/screenshot.png" alt="Screenshot"></div> -->
 <!-- <br /> -->
 
-The ascii-art-web-stylize is a program that is written in Go language using its standard library for the backend (net/http) and  the frontend (html/template) to be excuted as a web server with a web page. It gets two inputs before a submit button, then puts an output in the graphic representation of ASCII code. The first input is a text box that accepts any combination of English letters, Arabic numerals, whitespaces, newlines, and regular special characters only. The second input is a radio button which is the banner name that must be: standard, shadow, xor thinkertoy.
+The ascii-art-web-dockerize is a program that is written in Go language using its standard library for the backend (net/http) and  the frontend (html/template) to be excuted as a web server with a web page. It gets two inputs before a submit button, then puts an output in the graphic representation of ASCII code. The first input is a text box that accepts any combination of English letters, Arabic numerals, whitespaces, newlines, and regular special characters only. The second input is a radio button which is the banner name that must be: standard, shadow, xor thinkertoy.
 
-<p align="right">(<a href="#ascii-art-web-stylize">back to top</a>)</p>
+<p align="right">(<a href="#ascii-art-web-dockerize">back to top</a>)</p>
 
 
 
@@ -72,7 +72,7 @@ The ascii-art-web-stylize is a program that is written in Go language using its 
 * [Cascading Style Sheets](https://developer.mozilla.org/en-US/docs/Web/CSS/)
 
 
-<p align="right">(<a href="#ascii-art-web-stylize">back to top</a>)</p>
+<p align="right">(<a href="#ascii-art-web-dockerize">back to top</a>)</p>
 
 
 
@@ -84,7 +84,7 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
 You only need a web browser (such as Mozilla Firefox) besides the following software:
-* Go programming language (v1.22.2 or newer)
+* Go programming language (v1.22.1 or newer)
     ```sh
     go version
     ```
@@ -93,8 +93,8 @@ You only need a web browser (such as Mozilla Firefox) besides the following soft
 
 1. Clone the repo
     ```sh
-    git clone https://gitea.com/almadhoob/ascii-art-web-stylize.git
-    cd ascii-art-web-stylize
+    git clone https://gitea.com/almadhoob/ascii-art-web-dockerize.git
+    cd ascii-art-web-dockerize
     ```
 
 2. Build the app
@@ -108,7 +108,7 @@ You only need a web browser (such as Mozilla Firefox) besides the following soft
     ./app.run
     ```
 
-<p align="right">(<a href="#ascii-art-web-stylize">back to top</a>)</p>
+<p align="right">(<a href="#ascii-art-web-dockerize">back to top</a>)</p>
 
 
 
@@ -122,7 +122,7 @@ go run main.go
 
 After that, open the web page through: [http://127.0.0.1:8080](http://127.0.0.1:8080)
 
-<p align="right">(<a href="#ascii-art-web-stylize">back to top</a>)</p>
+<p align="right">(<a href="#ascii-art-web-dockerize">back to top</a>)</p>
 
 
 
@@ -131,12 +131,12 @@ After that, open the web page through: [http://127.0.0.1:8080](http://127.0.0.1:
 
 - [x] Add appropriate HTTP status codes.
 - [x] Stylise the input form using CSS.
-- [ ] Containerise everything in Docker.
+- [x] Containerise everything in Docker.
 - [ ] ...
 
-See the [open issues](https://gitea.com/almadhoob/ascii-art-web-stylize/issues) for a full list of proposed features (and known bugs).
+See the [open issues](https://gitea.com/almadhoob/ascii-art-web-dockerize/issues) for a full list of proposed features (and known bugs).
 
-<p align="right">(<a href="#ascii-art-web-stylize">back to top</a>)</p>
+<p align="right">(<a href="#ascii-art-web-dockerize">back to top</a>)</p>
 
 
 
@@ -155,7 +155,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 Don't forget to give the project a star! Thanks again!
 
-<p align="right">(<a href="#ascii-art-web-stylize">back to top</a>)</p>
+<p align="right">(<a href="#ascii-art-web-dockerize">back to top</a>)</p>
 
 <!-- AUTHORS -->
 ## Authors
@@ -163,7 +163,7 @@ Don't forget to give the project a star! Thanks again!
 * Ayoob Aloribi — [Gitea](https://gitea.com/aaloribi)
 * Ahmed Almadhoob — [Gitea](https://gitea.com/almadhoob)
 
-<p align="right">(<a href="#ascii-art-web-stylize">back to top</a>)</p>
+<p align="right">(<a href="#ascii-art-web-dockerize">back to top</a>)</p>
 
 
 
@@ -172,7 +172,7 @@ Don't forget to give the project a star! Thanks again!
 
 * Yaman Al-Masri — [LinkedIn](https://bh.linkedin.com/in/yaman-al-masri-1b2108244/)
 
-<p align="right">(<a href="#ascii-art-web-stylize">back to top</a>)</p>
+<p align="right">(<a href="#ascii-art-web-dockerize">back to top</a>)</p>
 
 
 
@@ -181,6 +181,6 @@ Don't forget to give the project a star! Thanks again!
 
 This is an [MIT-Licensed](./LICENSE) project which is created by its authors for [Reboot01](https://reboot01.com/).
 
-<p align="right">(<a href="#ascii-art-web-stylize">back to top</a>)</p>
+<p align="right">(<a href="#ascii-art-web-dockerize">back to top</a>)</p>
 
 
