@@ -83,11 +83,8 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-You only need a web browser (such as Mozilla Firefox) besides the following software:
-* Go programming language (v1.22.1 or newer)
-    ```sh
-    go version
-    ```
+You only need a web browser (such as Mozilla Firefox) in addition to an operating system (Linux, macOS, or Windows) along with the following software:
+* Docker Desktop, which is [available from this link](https://docs.docker.com/desktop/).
 
 ### Installation
 
@@ -97,15 +94,14 @@ You only need a web browser (such as Mozilla Firefox) besides the following soft
     cd ascii-art-web-dockerize
     ```
 
-2. Build the app
+2. Build the image
     ```sh
-    go build -o app.run
-    chmod +x app.run
+    docker build --tag docker-ascii .
     ```
 
-3. Run the app
+3. Run the container
     ```sh
-    ./app.run
+    docker run --publish 8080:8080 docker-ascii
     ```
 
 <p align="right">(<a href="#ascii-art-web-dockerize">back to top</a>)</p>
@@ -115,12 +111,7 @@ You only need a web browser (such as Mozilla Firefox) besides the following soft
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-The program can be used as the following:
-```console
-go run main.go
-```
-
-After that, open the web page through: [http://127.0.0.1:8080](http://127.0.0.1:8080)
+Open the web page through: [http://127.0.0.1:8080](http://127.0.0.1:8080)
 
 <p align="right">(<a href="#ascii-art-web-dockerize">back to top</a>)</p>
 
