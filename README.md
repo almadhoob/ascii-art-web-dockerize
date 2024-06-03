@@ -96,12 +96,12 @@ You only need a web browser (such as Mozilla Firefox) in addition to an operatin
 
 2. Build the image
     ```sh
-    docker build --tag docker-ascii .
+    docker image build --file Dockerfile --tag docker-ascii .
     ```
 
 3. Run the container
     ```sh
-    docker run --publish 8080:8080 docker-ascii
+    docker container run --publish 8080:8080 -d docker-ascii
     ```
 
 <p align="right">(<a href="#ascii-art-web-dockerize">back to top</a>)</p>
