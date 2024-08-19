@@ -5,7 +5,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://gitea.com/almadhoob/ascii-art-web-dockerize">
+  <a href="https://github.com/almadhoob/ascii-art-web-dockerize">
     <img src="static/logo.png" alt="Logo" width="128" height="128">
   </a>
 
@@ -14,12 +14,12 @@
   <p align="center">
     A simple text manipulation web app.
     <br />
-    <a href="https://gitea.com/almadhoob/ascii-art-web-dockerize"><strong>Go to the repo »</strong></a>
+    <a href="https://github.com/almadhoob/ascii-art-web-dockerize"><strong>Go to the repo »</strong></a>
     <br />
     <br />
-    <a href="https://gitea.com/almadhoob/ascii-art-web-dockerize/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/almadhoob/ascii-art-web-dockerize/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://gitea.com/almadhoob/ascii-art-web-dockerize/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/almadhoob/ascii-art-web-dockerize/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -90,7 +90,7 @@ You only need a web browser (such as Mozilla Firefox) in addition to an operatin
 
 1. Clone the repo
     ```sh
-    git clone https://gitea.com/almadhoob/ascii-art-web-dockerize.git
+    git clone https://github.com/almadhoob/ascii-art-web-dockerize.git
     cd ascii-art-web-dockerize
     ```
 
@@ -125,7 +125,7 @@ Open the web page through: [http://127.0.0.1:8080](http://127.0.0.1:8080)
 - [x] Containerise everything in Docker.
 - [ ] ...
 
-See the [open issues](https://gitea.com/almadhoob/ascii-art-web-dockerize/issues) for a full list of proposed features (and known bugs).
+See the [open issues](https://github.com/almadhoob/ascii-art-web-dockerize/issues) for a full list of proposed features (and known bugs).
 
 <p align="right">(<a href="#ascii-art-web-dockerize">back to top</a>)</p>
 
@@ -151,8 +151,8 @@ Don't forget to give the project a star! Thanks again!
 <!-- AUTHORS -->
 ## Authors
 
-* Ayoob Aloribi — [Gitea](https://gitea.com/aaloribi)
-* Ahmed Almadhoob — [Gitea](https://gitea.com/almadhoob)
+- Ayoob Aloribi — [LinkedIn](https://bh.linkedin.com/in/ayoob-aloribi/)
+- Ahmed Almadhoob — [LinkedIn](https://bh.linkedin.com/in/almadhoob/)
 
 <p align="right">(<a href="#ascii-art-web-dockerize">back to top</a>)</p>
 
